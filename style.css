@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    text-align: center;
+}
+#main{
+    width:100%;
+    height:100%;
+    display:flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    border:solid black;
+    margin: 10px;
+}
+#box3{
+    border-radius: 50%;
+}
+#box2{
+    margin-top: 20%;
+    rotate: 45deg;
+    text-align: center;
+}
+ #box2 h1{
+    rotate: -45deg;
+}
+#box{
+    text-align: center;
+}
+#box1:hover{
+    background-color: red;
+}
+#box2:hover{
+    background-color:green;
+}
+#box3:hover{
+    background-color:blue;
+}
